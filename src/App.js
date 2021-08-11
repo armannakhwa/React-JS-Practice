@@ -10,6 +10,8 @@ function App() {
 <div className="Container">
   <img src={logo} width="50%" alt="Error" />
 <Header/>
+<br/>
+<div>Designed By Arman</div>
 </div>
 </span>
 
