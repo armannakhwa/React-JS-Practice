@@ -15,7 +15,10 @@ function HomeScreen()
 {
   return(
     <>
-<h1>IP LAB React JS Practice Code Here</h1>
+<h1>IP LAB React JS Practice Code Here
+<a href="https://github.com/armannakhwa/React-JS-Practice"><button style={{backgroundColor:'gold',color:'blue'}}>view entire code of this website</button></a>
+</h1>
+
 <div className="Container">
   <img src={logo} width="50%" alt="Error" />
 <Header/>
