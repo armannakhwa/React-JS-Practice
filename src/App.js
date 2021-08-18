@@ -26,6 +26,7 @@ function count()
     <>
 <div className="v-h-center">
 <div className="Container">
+  <h2>React-JS IP LAB Code Here</h2>
   <img src={logo} width="50%" alt="Error" />
 <br/>
 <button onClick={count}>Counter</button>

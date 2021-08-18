@@ -9,7 +9,7 @@ return(
 <>
 <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
   <div className="container-fluid">
-    <Link className="navbar-brand" to="/">React-Js Practice Code Here</Link>
+    <Link className="navbar-brand" to="/">React JS</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -28,8 +28,8 @@ return(
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
           <li><Link className="dropdown-item" to="/">Specific Example's</Link></li>
           <li><hr className="dropdown-divider"/></li>
-            <li><Link className="dropdown-item" to="/16_08_2021">view work 16_08_2021</Link></li>
-            <li><Link className="dropdown-item" to="/17_08_2021">view work 17_08_2021</Link></li>
+            <li><Link className="dropdown-item" to="/16_08_2021">16_08_2021(Props)</Link></li>
+            <li><Link className="dropdown-item" to="/17_08_2021">17_08_2021(Timeout and Interval)</Link></li>
           </ul>
         </li>
       
