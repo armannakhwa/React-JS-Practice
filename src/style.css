@@ -16,7 +16,7 @@ body,html{
   padding: 0px;
   background-color: blueviolet;
 background: url('bg.png') no-repeat;
-background-size: cover;
+background-size:cover;
 }
 
 .v-h-center
