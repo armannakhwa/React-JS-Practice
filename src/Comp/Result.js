@@ -116,6 +116,7 @@ function showdes(des) {
 
                             <b>MCQ: </b><button className="btn-primary btn-sm" onClick={() => showmcq(d.mcq)}>Check</button> <br />
                             <b>Descriptive:</b><button className="btn-primary btn-sm" onClick={() => showdes(d.nmcq)}>Check</button><br />
+                            <b>Total: </b>{parseInt(d.mcq)+parseInt(d.nmcq)}<br/>
                         </div>
                     );
                 })}
