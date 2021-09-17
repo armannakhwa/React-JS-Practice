@@ -95,6 +95,15 @@ export default function Result() {
             text: mcq + "/10",
         });
     }
+
+function showdes(des) {
+
+        Swal.fire({
+            title: des <= 9 ? "improve your score next time" : "Congrats",
+            type: 'success',
+            text: des + "/10",
+        });
+    }
     return (
         <>
             <div className="position-sticky text-center text-white bg-danger p-2">These marks are not yet released officially ,if you want to know more kindly contact Amar Palwankar Sir</div>
@@ -106,7 +115,7 @@ export default function Result() {
                             <b>Roll No:</b> {d.rollno}<br />
 
                             <b>MCQ: </b><button className="btn-primary btn-sm" onClick={() => showmcq(d.mcq)}>Check</button> <br />
-                            <b>Descriptive:</b> {d.nmcq} /10 <br />
+                            <b>Descriptive:</b><button className="btn-primary btn-sm" onClick={() => showdes(d.nmcq)}>Check</button><br />
                         </div>
                     );
                 })}
