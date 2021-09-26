@@ -630,6 +630,7 @@ export default function IA1Result() {
     }
 
     function rankwise() {
+        setsname("");
         Swal.fire({
             title: 'Dont Worry..read below Quote',
             icon: "warning",
@@ -655,7 +656,7 @@ export default function IA1Result() {
         <div className="overflow-hidden mb-2" style={{ height: "90vh" }}>
             <div className="position-sticky text-center text-white bg-danger p-2">Result is already send in our WhatsApp Group
 
-                <input className="form-control my-2" type="search" onChange={searchs} placeholder="Enter your name" aria-label="Search" />
+                <input className="form-control my-2" type="search" onChange={searchs} value={sname} placeholder="Enter your name" aria-label="Search" />
 
             </div>
             <div className="overflow-auto" id="firstdata" style={{ maxHeight: "80%" }}>
