@@ -5,7 +5,7 @@ export default function IA1Result() {
 
     document.title = "IA 1 Marks - Arman Nakhwa";
 
-    let data = JSON.parse([{
+    let data =[{
         "Rollno": "1",
         "NAME": "ANERAO AMOGH HEMANT",
         "IP": "15",
@@ -613,7 +613,7 @@ export default function IA1Result() {
         "EEB": "17",
         "SE": "15",
         "CGMS": "10"
-    }]);
+    }];
 
     let [IA1ResultData, setIA1ResultData] = useState([]);
     let [sname, setsname] = useState("");
