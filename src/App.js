@@ -11,6 +11,7 @@ import {
   Route
 } from "react-router-dom";
 import Result from './Comp/Result';
+import IA1Result from './Comp/IA1Result';
 
 var s = 0;
 function HomeScreen() {
@@ -58,11 +59,12 @@ function App() {
         <Route exact path="/Result">
           <Result />
         </Route>
+        <Route exact path="/IA1Result">
+          <IA1Result />
+        </Route>
       </Switch>
 
     </Router>
-
-
   );
 }
 

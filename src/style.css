@@ -54,3 +54,18 @@ button{
   background-color: red;
   margin-top: 10px;
 }
+
+.rankno
+{
+  text-align: center;
+  background-color:rgb(255, 71, 132);
+  padding: 12px;
+  width: 40px;
+  border-radius: 20px;
+}
+.rw
+{
+  position: absolute;
+  right: 10px;
+  bottom: 2px;
+}
