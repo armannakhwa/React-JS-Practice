@@ -10,8 +10,9 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Result from './Comp/Result';
+//import Result from './Comp/Result';
 import IA1Result from './Comp/IA1Result';
+import IAResult from './Comp/IAResult';
 
 var s = 0;
 function HomeScreen() {
@@ -56,11 +57,15 @@ function App() {
         <Route exact path="/17_08_2021">
           <Timing />
         </Route>
-        <Route exact path="/Result">
+        {/* <Route exact path="/Result">
           <Result />
-        </Route>
+        </Route> */}
         <Route exact path="/IA1Result">
           <IA1Result />
+        </Route>
+
+        <Route exact path="/IAResult">
+         <IAResult/>
         </Route>
       </Switch>
 

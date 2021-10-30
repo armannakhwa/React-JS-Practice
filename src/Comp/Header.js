@@ -29,8 +29,9 @@ export function Header() {
                   <li><hr className="dropdown-divider" /></li>
                   <li><Link className="dropdown-item" to="/16_08_2021">16_08_2021(Props)</Link></li>
                   <li><Link className="dropdown-item" to="/17_08_2021">17_08_2021(Timeout and Interval)</Link></li>
-                  <li><Link className="dropdown-item" to="/Result">IP IA1 Result</Link></li>
+                  {/* <li><Link className="dropdown-item" to="/Result">IP IA1 Result</Link></li> */}
                   <li><Link className="dropdown-item" to="/IA1Result">IA1 Result</Link></li>
+                  <li><Link className="dropdown-item" to="/IAResult">Final IA Result</Link></li>
                 </ul>
               </li>
 
