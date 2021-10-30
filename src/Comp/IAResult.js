@@ -3,7 +3,7 @@ import Swal from "sweetalert2";
 
 export default function IAResult() {
 
-    document.title = "IA 1 Marks - Arman Nakhwa";
+    document.title = "Final IA Marks - Arman Nakhwa";
 
     let data =[
         {
