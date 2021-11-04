@@ -4,6 +4,8 @@ import {
 } from "react-router-dom";
 
 export function Header() {
+
+
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -28,6 +30,8 @@ export function Header() {
                   <li><Link className="dropdown-item" to="/">Specific Example's</Link></li>
                   <li><hr className="dropdown-divider" /></li>
                   <li><Link className="dropdown-item" to="/16_08_2021">16_08_2021(Props)</Link></li>
+                  <li><Link className="dropdown-item" to="/Usecontext">UseContext Eg</Link></li>
+                  <li><Link className="dropdown-item" to="/form">Form</Link></li>
                   <li><Link className="dropdown-item" to="/17_08_2021">17_08_2021(Timeout and Interval)</Link></li>
                   {/* <li><Link className="dropdown-item" to="/Result">IP IA1 Result</Link></li> */}
                   <li><Link className="dropdown-item" to="/IA1Result">IA1 Result</Link></li>
